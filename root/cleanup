@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Remove empty directories
+echo "
+[cleanup] cleaning unused directories..."
+
+rm -rf /boot \
+      /etc/opt \
+      /home \
+      /media \
+      /mnt \
+      /root \
+      /srv \
+      /tmp/* \
+      /usr/games \
+      /usr/include \
+      /usr/local \
+      /usr/src \
+      /var/backups \
+      /var/log/* \
+      /var/mail \
+      /var/opt \
+      /var/spool \
+      /var/tmp/* \
+
+echo "[cleanup] done, moving on...
+"
